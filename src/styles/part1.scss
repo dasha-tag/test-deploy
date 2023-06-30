@@ -1,0 +1,119 @@
+.biography-text {
+    position: relative;
+    padding: 16%;
+    padding: 27% 15.2% 16%;
+    top: 50%;
+    right: -0.4%;
+    transform: translateY(-53%);
+}
+
+.page-title-biography {
+    font-family: 'Butler', 'Times New Roman', Times, serif;
+    font-size: 5.5rem;
+    font-weight: 400;
+    margin-bottom: 6%;
+}
+
+.page-description {
+    font-family: 'Roboto' Arial, Helvetica, sans-serif;
+    color:#636363;
+    line-height: 1.5;
+    font-size: 1.125rem;
+
+}
+.hr {
+    width: 0.9rem;
+    background-color: black;
+    height: 0.3rem;
+    margin-top: 3.4rem;
+    margin-bottom: 2.1rem;
+}
+
+blockquote {
+    font-family: 'Butler', 'Times New Roman', Times, serif;
+    font-size: 2rem;
+    font-weight: 200;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+#designers {
+    display: flex;
+    align-items: center;
+}
+
+.designers__header {
+    position: absolute;
+    rotate: 270deg;
+    top: 50%;
+    transform: translateX(318px);
+    right: 25.9%;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.designers__content {
+    display: flex;
+    justify-content: flex-start;
+    align-items: baseline;
+    flex-grow: 1;
+    overflow-x: auto;
+    margin-top: -4.3%;
+    gap: 24px;
+}
+
+.designer {
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.designer_big {
+    margin: 0 87px ;
+}
+
+.designer_big:first-child {
+    margin-left: 0;
+}
+
+.designer_big:last-child {
+    margin-right: 0;
+}
+
+.designer__img {
+    width: 309px;
+    height: 442px;
+    object-fit: cover;
+}
+
+.designer_big .designer__img {
+    width: 609px;
+    height: 538px
+}
+
+.designer__name {
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.designer__article-text {
+    margin-top: 0.4rem;
+}
+
+.designer_big .designer__article-text {
+    align-self: center;
+}
+
+.designer__text-title {
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+}
